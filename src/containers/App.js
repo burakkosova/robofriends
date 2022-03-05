@@ -23,8 +23,6 @@ function App() {
     robot.name.toLowerCase().includes(searchfield.toLowerCase())
   );
 
-  console.log(filteredRobots);
-
   return !robots.length ? (
     <h1>Loading...</h1>
   ) : (
