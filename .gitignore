@@ -43,6 +43,7 @@ bower_components
 build
 
 *.sublime*
+.prettierrc
 
 psd
 thumb
